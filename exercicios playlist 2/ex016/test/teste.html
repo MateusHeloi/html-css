@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tags</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-image:linear-gradient(to right, rgba(78, 76, 76, 0.596), rgba(51, 49, 49, 0.767));
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 5px;
+        }
+        nav{
+            background-color: rgba(70, 70, 70, 0.774);
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            color: white;
+            margin-right:15px;
+            text-decoration: none;
+            font-weight: bold;
+           
+        }
+       
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color:white;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        main > section#noticias{
+            background-color: rgba(177, 177, 177, 0.685);
+            padding: 5px;
+            margin: 5px;
+        }
+        aside > p {
+            background-color: rgb(146, 143, 143);
+            padding: 5px;
+            color: black;
+            font-weight: bolder;
+            
+        }
+        footer > p {
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            color: white;
+        }
+        main > section#assuntos > p{
+            margin: 10px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>
+                Futebol 
+            </p>
+            <p>
+                Política 
+            </p>
+            <p>
+                Tecnologia
+            </p>
+            
+         </section>
+         <section id="noticias">
+             <article>
+                 <h2>
+                     Noticias sobre o brasil
+                 </h2>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum maxime eum, quod hic necessitatibus libero! Voluptas dicta cum, accusamus optio facilis in necessitatibus, vitae dolores animi distinctio quod reiciendis!</p>
+                 <aside>
+                     <p>Artigo escrito por jose da silva</p>
+                 </aside>
+
+             </article>
+             <article>
+
+             </article>
+
+         </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvídeo</p>
+    </footer>
+    
+</body>
+</html>
