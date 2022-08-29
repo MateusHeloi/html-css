@@ -1,0 +1,187 @@
+*{
+    font-family: arial;
+}
+
+
+body{
+    
+    background-image: url('pattinson-batmobile-1.jpg');
+    background-repeat: repeat -y;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+main{
+    background-color: white;
+    
+  
+    height: 400px;
+    width: 1000px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+   margin-bottom: 6em; 
+   border: 0.1px solid black;
+   
+    
+}
+#main2{
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+img{
+    width: 450px;
+    height: 250px;
+    border-radius: 50px;
+    margin-left: 150px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#consertar{
+    margin-right: 90px;
+}
+#consertar2{
+    margin-left: 190px;
+}
+#consertar3{
+    margin-left: 240px;
+}
+Form{
+    
+    margin: auto;
+    justify-content: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 5px;
+
+}
+form{
+border: 0.2px solid rgba(97, 104, 105, 0.452);
+width: 450px;
+height: 350px;
+background-color: rgba(211, 211, 211, 0.288);
+border-radius: 8px;
+font-size: 1.2em;
+
+}
+form input{
+    outline: unset;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(111, 146, 179, 0.733);
+
+}
+input#enviar{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-style: bold;
+    background-image: linear-gradient(to right, rgb(9, 37, 129), rgb(97, 191, 228));
+    color: white;
+    cursor: pointer;
+
+}
+main.ajuste{
+    height: 500px;
+    width: 700px;
+    border: 0.5px solid rgb(63, 114, 192);
+}
+form label{
+    font-weight: 500;
+}
+.fundomain2{
+    background-image: linear-gradient(to right, rgb(9, 37, 129), rgb(97, 191, 228));
+    border: none;
+    height: 550px;
+    border-radius: 50px;
+    
+
+}
+form input:focus{
+    background-color: antiquewhite;
+}
+p{
+    
+}
+div.gostos{
+    display: flex;
+    align-items: center center;
+    
+
+
+}
+table{
+    background-image: linear-gradient(to right, rgb(138, 163, 245), rgb(97, 191, 228));
+    width: 650px;
+    align-items: center center;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: 40px;
+    font-size: 1em;
+    
+    
+}
+td{
+    text-align: justify;
+    
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+table,tr,td{
+    border: 0.5px solid black;
+}
+td.bold{
+    font-size: 19px;
+    font-weight: bolder;
+    background-color: rgba(83, 210, 241, 0.568);
+}
+td{
+    background-color: white;
+    font-size: 19px;
+}
+th{
+    font-size: 20px;
+}
+main.reduzir{
+    width: 800px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(124, 136, 146, 0.514));
+    height: 500px;
+    margin-bottom: 0;
+}
+main.indicacao{
+    width: 800px;
+    background-color: rgb(241, 228, 228);
+    height: 200px;
+    margin-bottom: 200px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+
